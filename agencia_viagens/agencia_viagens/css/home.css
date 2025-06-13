@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Ribeye&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgb(187, 192, 196);
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: rgb(0, 39, 23);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    color: white;
+    list-style-type: none;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.banner, .cards_div p, footer {
+    font-family: "Urbanist", sans-serif;
+    font-style: normal;
+}
+
+.banner_img {
+    display: flex;
+    justify-self: center;
+    width: 1300px;
+}
+
+.servicos h1, .servicos_nomes, .cards_div h2{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cards img {
+    width: 300px;
+}
+
+.cards {
+    display: flex;
+    width: 900px;
+    gap: 30px;
+    padding-top: 30px;
+    justify-self: center;
+}
+
+.cards_div {
+    background-color: rgb(0, 39, 23);
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.9);
+    padding-left: 5px;
+    color: white;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+nav a{
+    color: white;
+   text-decoration: none;
+}
+
+/*
+{FONTE TITULOS
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+{FONTE NAV
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+*/
