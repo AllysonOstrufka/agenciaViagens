@@ -25,9 +25,9 @@ fieldset {
     background-color: rgb(6, 75, 43);
 }
 
-fieldset a:hover {
-    max-width: 300px;
-    max-height: 500px;
+fieldset:hover {
+    transform: scale(1.05); /* aumenta o tamanho do fieldset */
+    font-size: 18px; /* aumenta o tamanho do texto */
 }
 
 body {
