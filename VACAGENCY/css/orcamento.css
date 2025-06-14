@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Ribeye&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav .destaque {
+  color: rgb(187, 192, 196);
+}
+
+.separar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 100vh;
+}
+div {
+  padding: 5px;
+  color: white;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+fieldset {
+  border: 2px black solid;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 39, 23);
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+fieldset:hover {
+  transform: scale(1.05); /* aumenta o tamanho do fieldset */
+  font-size: 18px; /* aumenta o tamanho do texto */
+}
+
+body {
+  background-color: rgb(187, 192, 196);
+  margin: 0;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background-color: rgb(0, 39, 23);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+  color: white;
+  list-style-type: none;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+footer {
+  padding-top: 50px;
+}
+
+.botoes {
+  display: flex;
+  gap: 270px;
+  justify-content: center;
+}
+
+.botoes input,
+.botoes button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
+}
+
+#enviar {
+  background-color: rgb(0, 39, 23);
+  color: white;
+}
+
+#enviar:hover {
+  background-color: #00491c;
+  color: white;
+}
+
+#solicitar {
+  background-color: rgb(0, 39, 23);
+  color: white;
+}
+
+#solicitar:hover {
+  background-color: #00a854;
+  color: white;
+}
+
+/*
+{FONTE TITULOS
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+{FONTE NAV
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+*/
